@@ -1,0 +1,17 @@
+openapi: 3.0.3
+info:
+  title: ASC-Stock
+  description: API for managing stock
+  contact:
+    email: lucas.guerra@ynov.com
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000
+tags:
+  - name: Users
+    description: Operations about users
+  - name: Sondages
+    description: Operations about Sondages
+  - name: Responses
+    description: Operations about Sondage responses
+
